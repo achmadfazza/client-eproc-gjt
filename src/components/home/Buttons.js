@@ -9,9 +9,11 @@ export default function Buttons() {
 					Kembali
 				</Button>
 			</Link>{" "}
-			<Button variant="primary" size="sm">
-				Ikut Pengadaan
-			</Button>
+			<Link>
+				<Button variant="primary" size="sm">
+					Ikut Pengadaan
+				</Button>
+			</Link>
 		</Col>
 	);
 }

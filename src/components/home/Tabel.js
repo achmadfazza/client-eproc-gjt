@@ -24,7 +24,7 @@ export default function Tabel() {
 						<th>No</th>
 						<th>Subject Pengadaan</th>
 						<th>Lokasi</th>
-						<th>Pembukaam Registrasi</th>
+						<th>Pembukaan Registrasi</th>
 						<th>Penutupan Registrasi</th>
 					</tr>
 				</thead>
