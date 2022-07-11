@@ -1,0 +1,36 @@
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #585742;
+}
+.social a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0px 20px 0px 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16pt;
+}
+
+.social a:hover {
+  color: #ddd;
+}
+
+.main-table a{
+text-decoration: none;
+color: blue;
+cursor: pointer;
+}
+
+.main-table a:hover{
+text-decoration: none;
+color: black;
+cursor: pointer;
+}
+
+.second-table{
+  font-size: 16px;
+}
