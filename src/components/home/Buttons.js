@@ -9,7 +9,7 @@ export default function Buttons() {
 					Kembali
 				</Button>
 			</Link>{" "}
-			<Link>
+			<Link href="/checkout">
 				<Button variant="primary" size="sm">
 					Ikut Pengadaan
 				</Button>
