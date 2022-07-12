@@ -1,7 +1,7 @@
 import { Nav, Navbar, Image } from "react-bootstrap";
 
 const Navigation = () => (
-	<Navbar className="container navbar-expand-md navbar-dark">
+	<Navbar className="container navbar navbar-expand-lg navbar-dark">
 		<Navbar.Brand href="/">
 			<Image src="/images/logo.png" alt="logo-head" />
 		</Navbar.Brand>

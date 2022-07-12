@@ -13,8 +13,6 @@ export default function checkout() {
 
 			<Separator className="mt-4" />
 			<Contact />
-
-			<Footer />
 		</Layout>
 	);
 }

@@ -18,7 +18,7 @@ export default function Tabel() {
 	return (
 		<Container>
 			<h2 className="pb-4 text-center fw-light">Daftar Pengadaan Barang</h2>
-			<Table className="main-table" striped bordered hover>
+			<Table responsive bordered hover className="main-table">
 				<thead>
 					<tr>
 						<th>No</th>
