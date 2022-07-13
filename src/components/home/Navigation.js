@@ -9,10 +9,10 @@ const Navigation = () => (
 		<Navbar.Collapse id="navbarScroll">
 			<Nav className="ms-auto">
 				<Nav.Link href="">
-					<i className="fa fa-facebook-f"></i>
+					<i>LOGIN</i>
 				</Nav.Link>
 				<Nav.Link href="">
-					<i className="fa fa-instagram"></i>
+					<i>SIGN UP</i>
 				</Nav.Link>
 				<Nav.Link href="">
 					<i className="fa fa-whatsapp"></i>

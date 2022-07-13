@@ -18,6 +18,8 @@ export default function Home() {
 
 			<Tabel />
 
+			<Separator className="pb-3" />
+
 			<Footer />
 		</Layout>
 	);

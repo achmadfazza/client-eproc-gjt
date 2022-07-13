@@ -59,7 +59,7 @@ export default function detail() {
 									<td>{dataItem.name}</td>
 								</tr>
 								<tr>
-									<th>Jenis Pengadaan</th>
+									<th>Kategori</th>
 									<td>{dataCategory.name}</td>
 								</tr>
 								<tr>
@@ -86,8 +86,9 @@ export default function detail() {
 						</Table>
 					</Col>
 				</Row>
-				<Separator className="pt-3" />
+				<Separator className="pt-4" />
 				<Buttons />
+				<Separator className="p-4" />
 			</Container>
 			<Footer />
 		</Layout>

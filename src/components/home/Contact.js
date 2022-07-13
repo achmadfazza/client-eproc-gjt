@@ -66,9 +66,43 @@ const Contact = () => {
 							</Modal.Footer>
 						</Modal>
 					</div>
-					<div className="col-md-5 bg-light">
-						<div className="ml-5">
-							<h1>Halo</h1>
+					<div className="col-md-5 shadow rounded p-5">
+						<div className="col mb-3">
+							<label className="form-label">Nama Badan Usaha</label>
+							<input
+								type="text"
+								name="firstName"
+								id="firstName"
+								className="form-control"
+								placeholder="Nama Perusahaan"
+							/>
+						</div>
+						<div className="col mb-3">
+							<label className="form-label">No. NPWP</label>
+							<input type="text" name="firstName" id="firstName" className="form-control" placeholder="Nomer NPWP" />
+						</div>
+						<div className="col mb-3">
+							<label className="form-label">Jenis Usaha</label>
+							<input type="text" name="firstName" id="firstName" className="form-control" placeholder="Jenis Usaha" />
+						</div>
+						<div className="col mb-3">
+							<label className="form-label">Alamat Perusahaan</label>
+							<textarea
+								type="text"
+								name="firstName"
+								id="firstName"
+								className="form-control"
+								placeholder="Alamat Perusahaan"
+								rows={3}
+							/>
+						</div>
+						<div className="col mb-3">
+							<label className="form-label">Email</label>
+							<input type="text" name="firstName" id="firstName" className="form-control" placeholder="Jenis Usaha" />
+						</div>
+						<div className="col mb-3">
+							<label className="form-label">No Telepon</label>
+							<input type="text" name="firstName" id="firstName" className="form-control" placeholder="Jenis Usaha" />
 						</div>
 					</div>
 				</div>

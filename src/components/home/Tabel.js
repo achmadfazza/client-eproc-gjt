@@ -24,6 +24,7 @@ export default function Tabel() {
 						<th>No</th>
 						<th>Subject Pengadaan</th>
 						<th>Lokasi</th>
+						<th>Kategori</th>
 						<th>Pembukaan Registrasi</th>
 						<th>Penutupan Registrasi</th>
 					</tr>
@@ -33,16 +34,15 @@ export default function Tabel() {
 						<tbody key={item._id}>
 							<tr>
 								<td>
-									<Link href={`/detail/` + item._id}>
-										<a id={item._id}>
-											<h5>
-												{"GJT"} {index + 1}
-											</h5>
-										</a>
-									</Link>
+									<p>{index + 1}</p>
 								</td>
-								<td>{item.name}</td>
+								<Link href={`/detail/` + item._id}>
+									<a id={item._id}>
+										<td>{item.name}</td>
+									</a>
+								</Link>
 								<td>{item.location.name}</td>
+								<td>{item.category.name}</td>
 								<td>{item.reservationdate}</td>
 								<td>{item.endingdate}</td>
 							</tr>
