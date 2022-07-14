@@ -18,6 +18,11 @@ export default function Home() {
 
 			<Tabel />
 
+			<Separator className="pb-5" />
+			<Separator className="pb-5" />
+			<Separator className="pb-5" />
+			<Separator className="pb-5" />
+			<Separator className="pb-5" />
 			<Separator className="pb-3" />
 
 			<Footer />

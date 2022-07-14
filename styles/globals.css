@@ -1,9 +1,12 @@
 body {
   width: 100%;
-  margin: 0 auto;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: auto;
 }
 
 header {
-  background: -webkit-linear-gradient(-45deg, #b4e391 0%,#10a510 67%,#12bc19 100%,#2a992e 100%);
+  background: #eeeee4;
 }
 

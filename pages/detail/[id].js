@@ -88,7 +88,9 @@ export default function detail() {
 				</Row>
 				<Separator className="pt-4" />
 				<Buttons />
-				<Separator className="p-4" />
+				<Separator className="pb-5" />
+				<Separator className="pb-5" />
+				<Separator className="pb-3" />
 			</Container>
 			<Footer />
 		</Layout>

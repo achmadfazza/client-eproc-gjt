@@ -1,9 +1,9 @@
 import { Nav, Navbar, Image } from "react-bootstrap";
 
 const Navigation = () => (
-	<Navbar className="container navbar navbar-expand-lg navbar-dark">
+	<Navbar className="container navbar navbar-expand-lg navbar-light">
 		<Navbar.Brand href="/">
-			<Image src="/images/logo.png" alt="logo-head" />
+			<Image src="/images/gjtgroup.png" width={100} height={65} alt="logo-head" />
 		</Navbar.Brand>
 		<Navbar.Toggle aria-controls="navbarScroll" />
 		<Navbar.Collapse id="navbarScroll">
@@ -13,9 +13,6 @@ const Navigation = () => (
 				</Nav.Link>
 				<Nav.Link href="">
 					<i>SIGN UP</i>
-				</Nav.Link>
-				<Nav.Link href="">
-					<i className="fa fa-whatsapp"></i>
 				</Nav.Link>
 			</Nav>
 		</Navbar.Collapse>
